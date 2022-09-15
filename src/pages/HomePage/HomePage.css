@@ -1,11 +1,7 @@
 #pageContainer{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-top: 5rem ;
-    /* padding-top:3rem ; */
-    /* margin:5%; */
-    /* min-height: 80vh; */
     min-width: 100%;
 }
 #page{
