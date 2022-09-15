@@ -30,6 +30,11 @@
     color: azure;
     text-decoration: none;
 }
+.navcontents a:visited{
+    font-family: tahoma;
+    color: rgb(197, 174, 23);
+    text-decoration: none;
+}
 .navcontents > ul{
     display: none;
 }

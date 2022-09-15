@@ -2,14 +2,19 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    border-top: 3.5rem solid transparent ;
+    margin-top: 5rem ;
     /* padding-top:3rem ; */
     /* margin:5%; */
     /* min-height: 80vh; */
     min-width: 100%;
 }
 #page{
+  
+    text-align: justify;
     width: 80%;
     height: 80%;
     border: 1px solid black;
+}
+#page p{
+      margin: 1rem;
 }
