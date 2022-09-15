@@ -1,0 +1,52 @@
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 0 0.7rem 0 ;
+    background:linear-gradient( to bottom, rgb(51, 14, 109), rgb(29, 12, 58) );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0; 
+    
+}
+#navtitle{
+    font-family:Lucida Handwriting;
+    font-size: 22px;
+    color: orange;
+    margin: 1rem;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around; 
+    width: 40%;
+}
+.navcontents{
+    margin-left: 1%;
+}
+.navcontents a:link{
+    font-family: tahoma;
+    color: azure;
+    text-decoration: none;
+}
+.navcontents > ul{
+    display: none;
+}
+.navcontents li{
+    list-style-type: none;
+    display: block;
+    margin-right: 20px;
+    padding: 0.5rem;
+    }
+.navcontents:hover > ul{
+    display: block;
+    position: absolute;
+    background: linear-gradient( to bottom,  rgb(37, 13, 76) , rgb(29, 12, 58) );
+    margin: 0;
+    /* margin-left: -10px; */
+}
+#prod li:hover ul li a:link {
+    display: block;
+    position: absolute;
+}

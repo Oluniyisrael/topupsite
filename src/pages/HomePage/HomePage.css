@@ -1,0 +1,15 @@
+#pageContainer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-top: 3.5rem solid transparent ;
+    /* padding-top:3rem ; */
+    /* margin:5%; */
+    /* min-height: 80vh; */
+    min-width: 100%;
+}
+#page{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+}
